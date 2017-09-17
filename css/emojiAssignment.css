@@ -1,0 +1,42 @@
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+.outerContainer {
+	max-width: 50%;
+	margin: 0 auto;
+}
+.pageTitle {
+	color: #424242;
+	padding: 20px 0;
+	text-align: center;
+}
+.submitText {
+	padding-bottom: 10px;
+}
+.chatBox[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+}
+.chatBox {
+	border: 1px solid #dcdcdc;
+	cursor: text;
+	outline: none;
+	padding: 5px;
+}
+.chatBox img, .submitText img, .emojiIcon {
+  width: 20px;
+}
+@media only screen and (max-width : 1024px) {
+	.outerContainer {
+		max-width: 75%;
+		padding:0 20px;
+	}
+}
+@media only screen and (max-width : 640px) {
+	.outerContainer {
+		max-width: 100%;
+		padding:0 20px;
+	}
+}
