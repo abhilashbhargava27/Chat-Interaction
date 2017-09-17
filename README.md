@@ -1,2 +1,4 @@
 # Chat-Interaction
-Type :) or &lt;3, to convert it into the emoji or can add more by inserting the format and the link to emoji.
+1. Click on the Enter Text here.
+2. Type :) or <3 and see the conversion by pressing space bar or the enter key.
+3. Feel free to add more Emoji's with a link of their host.
